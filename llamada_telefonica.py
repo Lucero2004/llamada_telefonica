@@ -10,7 +10,7 @@ dL=int(input("ingrese el tiempo de duración de la llamada: "))
 if(dL<=3):
     CL=300
 else:
-     CL=300+50*dL-3
+     CL=300+50*(dL-3)
 
 #output
 print("-------------------------------")
